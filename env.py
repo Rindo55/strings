@@ -2,12 +2,12 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
+APP_ID= 10247139 
+API_HASH = "96b46175824223a33737657ab943fd6a"
+BOT_TOKEN= "7293653178:AAGcJSttQbNUK0ORBmf6G9yy7LBLsxuU_k8" 
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+MUST_JOIN = "neko_bots"
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
