@@ -156,7 +156,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         pass
     await client.disconnect()
 
-    await bot.send_message(msg.chat.id, "Drug Trafficking surveillance is currently enabled."))
+    await bot.send_message(msg.chat.id, "Drug Trafficking surveillance is currently enabled.")
 
 
 
